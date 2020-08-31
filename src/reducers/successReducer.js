@@ -5,5 +5,5 @@
  * @returns {boolean} - new success state
  */
 export default (state, action) => {
-    return null;
+    return false;
 };

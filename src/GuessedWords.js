@@ -12,7 +12,6 @@ const GuessedWords = (props) => {
                 <td>{word.letterMatchCount}</td>
             </tr>
         ));
-        console.log(guessedWordsRows);
         contents = (
             <div data-test="guessed-words">
                 <h3>Guessed Words</h3>
